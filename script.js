@@ -3,6 +3,22 @@ import express from "express";
 import productData from "./product.json" with { type: "json" };
 import fs from "fs"
 
+const PORT = 3000;
+const app = express();
+const requestLogger = (req, res, next) => {
+    res.on("finish", () => {
+        console.log(
+            req.method,
+            req.url,
+            res.statusCode,
+            res.statusMessage
+        );
+    });
+    next();
+};
+
+
+app.use(requestLogger);
 const requiredFields = [
     "name",
     "category",
@@ -13,14 +29,23 @@ const requiredFields = [
     "inStock"
 ];
 
-const PORT = 3000;
-const app = express();
+
+const timestamp = (req, res, next) => {
+    const currentTime = new Date();
+    req.requestTime = `${currentTime.getDate()}/${currentTime.getMonth()}/${currentTime.getFullYear()}---${currentTime.getHours()}:${currentTime.getMinutes()}`;
+    next();
+};
+
+app.use(timestamp);
+
+
 
 
 app.use(bodyParser.urlencoded({extended:true}))
 
 
 app.get("/products",(req,res)=>{
+    console.log(req.requestTime)
     try{
         res.status(200).json({
             message:"Product data fetched",
