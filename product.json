@@ -1,0 +1,520 @@
+[
+  {
+    "id": 1,
+    "name": "bando",
+    "category": "Clothing",
+    "price": 1000,
+    "stock": 13,
+    "brand": "puma",
+    "rating": 2.5,
+    "inStock": true,
+    "size": {
+      "S": 30,
+      "M": 36
+    },
+    "colors": [
+      "green",
+      "violet"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 2499,
+    "stock": 25,
+    "brand": "Redragon",
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "USB-C Hub",
+    "category": "Electronics",
+    "price": 1299,
+    "stock": 30,
+    "brand": "Anker",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth Speaker",
+    "category": "Audio",
+    "price": 1899,
+    "stock": 18,
+    "brand": "JBL",
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Wireless Headphones",
+    "category": "Audio",
+    "price": 3499,
+    "stock": 12,
+    "brand": "Sony",
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Laptop Stand",
+    "category": "Accessories",
+    "price": 999,
+    "stock": 40,
+    "brand": "AmazonBasics",
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Gaming Mouse",
+    "category": "Gaming",
+    "price": 1599,
+    "stock": 22,
+    "brand": "Razer",
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Gaming Headset",
+    "category": "Gaming",
+    "price": 2999,
+    "stock": 15,
+    "brand": "HyperX",
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "HD Webcam",
+    "category": "Electronics",
+    "price": 2199,
+    "stock": 20,
+    "brand": "Logitech",
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Portable SSD 1TB",
+    "category": "Storage",
+    "price": 6999,
+    "stock": 10,
+    "brand": "Samsung",
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "USB Flash Drive 64GB",
+    "category": "Storage",
+    "price": 699,
+    "stock": 60,
+    "brand": "SanDisk",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "name": "External Hard Drive 2TB",
+    "category": "Storage",
+    "price": 5499,
+    "stock": 8,
+    "brand": "WD",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "name": "27-inch Monitor",
+    "category": "Computers",
+    "price": 18999,
+    "stock": 7,
+    "brand": "LG",
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "name": "24-inch Monitor",
+    "category": "Computers",
+    "price": 12999,
+    "stock": 14,
+    "brand": "Dell",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "Laptop Backpack",
+    "category": "Accessories",
+    "price": 1499,
+    "stock": 35,
+    "brand": "American Tourister",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 16,
+    "name": "Power Bank 20000mAh",
+    "category": "Accessories",
+    "price": 1799,
+    "stock": 28,
+    "brand": "MI",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "name": "Fast Charging Adapter",
+    "category": "Accessories",
+    "price": 899,
+    "stock": 50,
+    "brand": "OnePlus",
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 18,
+    "name": "USB-C Cable",
+    "category": "Accessories",
+    "price": 399,
+    "stock": 100,
+    "brand": "Belkin",
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "name": "Smart Watch",
+    "category": "Wearables",
+    "price": 4999,
+    "stock": 16,
+    "brand": "Amazfit",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "name": "Fitness Band",
+    "category": "Wearables",
+    "price": 2499,
+    "stock": 24,
+    "brand": "Fitbit",
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 21,
+    "name": "Smartphone Stand",
+    "category": "Accessories",
+    "price": 499,
+    "stock": 70,
+    "brand": "Portronics",
+    "rating": 4.1,
+    "inStock": true
+  },
+  {
+    "id": 22,
+    "name": "Wireless Charger",
+    "category": "Accessories",
+    "price": 1299,
+    "stock": 32,
+    "brand": "Belkin",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 23,
+    "name": "LED Desk Lamp",
+    "category": "Home",
+    "price": 1099,
+    "stock": 27,
+    "brand": "Philips",
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 24,
+    "name": "Smart LED Bulb",
+    "category": "Home",
+    "price": 699,
+    "stock": 55,
+    "brand": "Wipro",
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "name": "Air Purifier",
+    "category": "Home Appliances",
+    "price": 8999,
+    "stock": 6,
+    "brand": "Philips",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 26,
+    "name": "Electric Kettle",
+    "category": "Kitchen",
+    "price": 1599,
+    "stock": 20,
+    "brand": "Prestige",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 27,
+    "name": "Coffee Maker",
+    "category": "Kitchen",
+    "price": 3499,
+    "stock": 11,
+    "brand": "Philips",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 28,
+    "name": "Non-Stick Frying Pan",
+    "category": "Kitchen",
+    "price": 1299,
+    "stock": 33,
+    "brand": "Hawkins",
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 29,
+    "name": "Water Bottle",
+    "category": "Lifestyle",
+    "price": 599,
+    "stock": 80,
+    "brand": "Milton",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 30,
+    "name": "Travel Mug",
+    "category": "Lifestyle",
+    "price": 799,
+    "stock": 45,
+    "brand": "Cello",
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 31,
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "price": 2999,
+    "stock": 19,
+    "brand": "Nike",
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 32,
+    "name": "Casual Sneakers",
+    "category": "Footwear",
+    "price": 2499,
+    "stock": 26,
+    "brand": "Puma",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 33,
+    "name": "Formal Shoes",
+    "category": "Footwear",
+    "price": 1999,
+    "stock": 13,
+    "brand": "Bata",
+    "rating": 4.1,
+    "inStock": true
+  },
+  {
+    "id": 34,
+    "name": "Cotton T-Shirt",
+    "category": "Clothing",
+    "price": 699,
+    "stock": 90,
+    "brand": "H&M",
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 35,
+    "name": "Denim Jeans",
+    "category": "Clothing",
+    "price": 1799,
+    "stock": 42,
+    "brand": "Levi's",
+    "rating": 3.5,
+    "inStock": false
+  },
+  {
+    "id": 36,
+    "name": "Hoodie",
+    "category": "Clothing",
+    "price": 1499,
+    "stock": 31,
+    "brand": "Puma",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 37,
+    "name": "Office Chair",
+    "category": "Furniture",
+    "price": 8999,
+    "stock": 9,
+    "brand": "Green Soul",
+    "rating": 3.6,
+    "inStock": true
+  },
+  {
+    "id": 38,
+    "name": "Study Table",
+    "category": "Furniture",
+    "price": 5999,
+    "stock": 5,
+    "brand": "Wakefit",
+    "rating": 3.3,
+    "inStock": true
+  },
+  {
+    "id": 39,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 4499,
+    "stock": 8,
+    "brand": "Ikea",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 40,
+    "name": "Yoga Mat",
+    "category": "Fitness",
+    "price": 899,
+    "stock": 38,
+    "brand": "Boldfit",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 41,
+    "name": "Dumbbell Set",
+    "category": "Fitness",
+    "price": 2499,
+    "stock": 12,
+    "brand": "Kore",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 42,
+    "name": "Resistance Bands",
+    "category": "Fitness",
+    "price": 699,
+    "stock": 45,
+    "brand": "Strauss",
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 43,
+    "name": "Football",
+    "category": "Sports",
+    "price": 999,
+    "stock": 20,
+    "brand": "Nivia",
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 44,
+    "name": "Cricket Bat",
+    "category": "Sports",
+    "price": 2999,
+    "stock": 10,
+    "brand": "SS",
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 45,
+    "name": "Badminton Racket",
+    "category": "Sports",
+    "price": 1599,
+    "stock": 17,
+    "brand": "Yonex",
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 46,
+    "name": "Notebook",
+    "category": "Stationery",
+    "price": 199,
+    "stock": 150,
+    "brand": "Classmate",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 47,
+    "name": "Ball Pen Pack",
+    "category": "Stationery",
+    "price": 149,
+    "stock": 200,
+    "brand": "Reynolds",
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 48,
+    "name": "Backpack",
+    "category": "Bags",
+    "price": 1299,
+    "stock": 36,
+    "brand": "Skybags",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 49,
+    "name": "Sunglasses",
+    "category": "Fashion",
+    "price": 999,
+    "stock": 29,
+    "brand": "Fastrack",
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 50,
+    "name": "Digital Alarm Clock",
+    "category": "Home",
+    "price": 899,
+    "stock": 21,
+    "brand": "Casio",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 52,
+    "name": "eskimo",
+    "category": "Clothing",
+    "price": 3000,
+    "stock": 10,
+    "brand": "fortune",
+    "rating": 4.1,
+    "inStock": true
+  }
+]
